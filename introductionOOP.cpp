@@ -17,6 +17,13 @@ public:
         cout << "NIM   : " << nim << endl;
         cout << "Nama  : " << nama << endl;
         cout << "Nilai : " << nilai << endl;
+   
+   string getStatus(){
+    if(nilai >= 75)
+        return "Lulus";
+    else
+        return "Tidak Lulus";
+
     }
 };
 
