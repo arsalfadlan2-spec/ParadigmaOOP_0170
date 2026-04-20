@@ -6,7 +6,13 @@ public:
     int nim;
     string nama;
     float nilai;
-
+    
+    void inputData(int n, string nm, float nl){ 
+    nim = n;
+    nama = nm;
+    nilai = nl;
+    }
+    
     void printData(){
         cout << "NIM   : " << nim << endl;
         cout << "Nama  : " << nama << endl;
