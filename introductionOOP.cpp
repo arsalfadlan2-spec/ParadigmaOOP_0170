@@ -12,7 +12,7 @@ public:
     nama = nm;
     nilai = nl;
     }
-    
+
     void printData(){
         cout << "NIM   : " << nim << endl;
         cout << "Nama  : " << nama << endl;
@@ -22,10 +22,7 @@ public:
 
 int main(){
     Mahasiswa mhs;
-    mhs.nim = 2022;
-    mhs.nama = "Abra";
-    mhs.nilai = 90.5;
-
+    mhs.inputData(2022, "Abra", 90.5);
     mhs.printData();
 
     return 0;
